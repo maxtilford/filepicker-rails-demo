@@ -38,4 +38,4 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 
-gem "file-picker-rails", path: "~/work/file-picker-rails"
+gem "filepicker-rails", git: "git://github.com/maxtilford/filepicker-rails.git"

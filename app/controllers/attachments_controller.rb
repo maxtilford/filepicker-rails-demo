@@ -5,11 +5,8 @@ class AttachmentsController < ApplicationController
   end
 
   def create
-    if @attachment = Attachment.create(params[:attachment])
-      redirect_to attachments_url
-    else
-      render :show
-    end
+    Attachment.create(params[:attachment])
+    redirect_to attachments_url
   end
 
   def index

@@ -1,7 +1,8 @@
-PATH
-  remote: ~/work/file-picker-rails
+GIT
+  remote: git://github.com/maxtilford/filepicker-rails.git
+  revision: f38b57eb1567c6bbe784e279d79c89b7b3d482f4
   specs:
-    file-picker-rails (0.0.1)
+    filepicker-rails (0.0.1)
       railties (>= 3.1.0, < 5.0)
 
 GEM
@@ -110,7 +111,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  file-picker-rails!
+  filepicker-rails!
   jquery-rails
   rails (= 3.2.8)
   sass-rails (~> 3.2.3)

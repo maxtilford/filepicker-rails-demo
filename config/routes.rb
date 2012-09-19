@@ -1,5 +1,7 @@
 FilePickerDemo::Application.routes.draw do
 
+  root to: "attachments#index"
+
   resources :attachments, only: [:index, :new, :create]
   # The priority is based upon order of creation:
   # first created -> highest priority.

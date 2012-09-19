@@ -59,6 +59,6 @@ module FilePickerDemo
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    config.file_picker_rails.api_key = 'Agik2tWviTWKJPVPURKerz'
+    config.filepicker_rails.api_key = ENV['FILEPICKER_APIKEY']
   end
 end
