@@ -1,0 +1,11 @@
+<table>
+  <tr><th>Id</th><th>FilePicker.io Url</th><th>image</th></tr>
+
+  <% @attachments.each do |a| %>
+
+  <tr><td><%= a.id %></td><td><%= a.file_url %></td>
+    <td><%= file_picker_image_tag a.file_url, w: 300, h: 300 %></td>
+  <td><%= file_picker_save_button "Download", a.file_url, "image/png" %></tr>
+
+  <% end %>
+</table>
